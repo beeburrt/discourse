@@ -42,7 +42,7 @@ export default class TagSettingsLocalizations extends Component {
       </collection.Field>
 
       <@form.Row as |row|>
-        <row.Col @size={{2}}>
+        <row.Col @size={{3}}>
           <collection.Field
             @name="locale"
             @title={{i18n "tagging.localization.locale"}}
@@ -73,7 +73,7 @@ export default class TagSettingsLocalizations extends Component {
           </collection.Field>
         </row.Col>
 
-        <row.Col @size={{6}}>
+        <row.Col @size={{5}}>
           <collection.Field
             @name="description"
             @title={{i18n "tagging.localization.description"}}
